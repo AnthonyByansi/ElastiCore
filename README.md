@@ -23,7 +23,7 @@ ElastiCore is a robust and scalable fault-tolerant distributed system built in G
 
 - ⚖️ The "Load Balancer" efficiently distributes incoming client requests across multiple "Master" nodes, ensuring fairness and resource optimization. ⚙️
 
-- 💾 Processed "Results" are replicated and securely stored in a "Data Store," safeguarding data durability. 📂
+- 📁 Data Replication: The processed 📊Results are replicated and stored in a 🗄️Data Store to ensure data durability and resilience in the face of potential failures.
 
 - 💻 Client Interaction: 🧑‍💻Clients interact with the system by sending data processing requests to the 🚦Load Balancer, initiating the data processing workflow.
   
