@@ -16,6 +16,37 @@ ElastiCore is a robust and scalable fault-tolerant distributed system built in G
 
 
 ## 🚀 How it Works 
+```mermaid
+
+flowchart LR
+    subgraph Master Node
+    A[Master] -->|Task Distribution| B((Worker 1))
+    A[Master] -->|Task Distribution| C((Worker 2))
+    A[Master] -->|Task Distribution| D((Worker 3))
+    end
+
+    subgraph Worker Nodes
+    B((Worker 1)) -->|Data Processing| E((Result 1))
+    C((Worker 2)) -->|Data Processing| F((Result 2))
+    D((Worker 3)) -->|Data Processing| G((Result 3))
+    end
+
+    subgraph Load Balancer
+    H[Load Balancer] --> A[Master]
+    end
+
+    subgraph Data Storage
+    E((Result 1)) -->|Data Replication| I((Data Store 1))
+    F((Result 2)) -->|Data Replication| I((Data Store 1))
+    G((Result 3)) -->|Data Replication| I((Data Store 1))
+    end
+
+    subgraph Clients
+    J[Client 1] -->|Data Request| H[Load Balancer]
+    J[Client 1] -->|Data Request| H[Load Balancer]
+    J[Client 1] -->|Data Request| H[Load Balancer]
+    end
+```
 
 - 💡 The "ElastiCore" system is orchestrated by the 🧠 "Master" node, which intelligently distributes tasks to 🛠️ "Worker" nodes.
 
