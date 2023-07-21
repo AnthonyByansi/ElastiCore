@@ -8,11 +8,11 @@ ElastiCore is a robust and scalable fault-tolerant distributed system built in G
 
 ## 🎯 Key Features
 
-- ✅ Fault Tolerance: Implements the Raft consensus algorithm for master node replication, ensuring high availability and reliability.
-- ✅ Data Replication: Includes data replication mechanisms for enhanced data durability in case of node failures.
-- ✅ Load Balancing: Utilizes a load balancer to evenly distribute incoming requests, optimizing resource utilization.
-- ✅ Scalability: Easily scales horizontally by adding more worker nodes or master nodes to accommodate growing data processing demands.
-- ✅ Security: Incorporates authentication and encryption for secure data transmission and access control.
+- ✅ **Fault Tolerance**: Implements the Raft consensus algorithm for master node replication, ensuring high availability and reliability.
+- ✅ **Data Replication**: Includes data replication mechanisms for enhanced data durability in case of node failures.
+- ✅ **Load Balancing**: Utilizes a load balancer to evenly distribute incoming requests, optimizing resource utilization.
+- ✅ **Scalability**: Easily scales horizontally by adding more worker nodes or master nodes to accommodate growing data processing demands.
+- ✅ **Security**: Incorporates authentication and encryption for secure data transmission and access control.
 
 ## 🔧 Installation and Usage
 
