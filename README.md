@@ -36,7 +36,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 📞 Contact
 
-Have questions or suggestions? Feel free to reach out to us at contact@elasticore.io.
+> Have questions or suggestions? Feel free to reach out to us at contact@elasticore.io.(In Review)
 
 Let's build the future of data processing together! 🌟
 
